@@ -1,6 +1,13 @@
 # github-webhook-example
 This is an example implementation for GitHub Webhooks using python3 with flask.
 
+## Preparation
+You have to configure three webhooks on your repository.
+So that
+- 'push' events end up in /push
+- 'issue' events end up in /issue 
+- 'pull' events end up in /pull
+
 ## Usage
 Copy "config.example.py" to "config.py" and provide fitting values.
 Then you can start by using 
